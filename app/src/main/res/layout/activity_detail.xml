@@ -9,7 +9,8 @@
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/myRecyclerview"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"/>
+        android:layout_height="match_parent"
+        android:orientation="horizontal"/>
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
         android:layout_width="wrap_content"
@@ -21,5 +22,6 @@
         android:src="@drawable/ic_add"
         android:tint="@android:color/white"
         app:fabSize="normal"/>
+
 
 </RelativeLayout>
